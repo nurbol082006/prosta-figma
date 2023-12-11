@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav {
+  background-color: #bb2339;
+  height: 70px;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.bg-color {
+  background-color: #bb2339;
+  position: fixed;
+  height: 70px;
+  width: 1300px;
+  border-radius: 50px 50px 10px 10px;
+}
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.link-ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 115px;
+}
+.link-li {
+  list-style: none;
+}
+
+.link {
+  margin-left: 550px;
+  display: flex;
+}
+.menu-a {
+  text-decoration: none;
+  color: #B97566;
+}
+.turkiya-btn {
+  margin-right: 50px;
+  border: 1px solid #fff;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 5px;
+  color: #fff;
+  background-color: #bb2339;
+}
+.span {
+  margin-top: 50px;
+}
+.span-1 {
+  color: #b0b0b0;
+}
+.span-2 {
+  color: #bb2339;
+}
+.prepore {
+  text-align: center;
+  font-size: 40px;
+}
+.paul {
+  width: 410px;
+  height: 250px;
+}
+
+.tips {
+  width: 410px;
+  height: 450px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.aprel {
+  display: flex;
+  justify-content: space-between;
+}
+.moje {
+  color: #bb2339;
+  font-size: 16px;
+}
+.more {
+  font-size: 14px;
+  color: #aaa;
+  margin-right: 15px;
+}
+.caring {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.lorem {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+.tex {
+  margin-left: 15px;
+}
+
+.opshiy {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.end {
+  padding: 10px 10px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 100px;
+  border: 1px solid #bb2339;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.end:hover{
+    background-color: burlywood;
+    color: rebeccapurple;
+    padding: 12px 40px;
+}
+
+
+
+
+
+.otmena{
+    display: flex;
+    justify-content: center;
+}
+.port {
+    background-color: #bb2339;
+    height: 600px;
+    margin-top: 250px;
+  }
+  .best {
+    color: white;
+    text-align: center;
+  }
+  .house {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+  .friday {
+    color: #fff;
+    font-size: 16px;
+  }
+  .friday-1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contack-turkish {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 300px;
+  }
+  .frame {
+    /* width: 245px; */
+    height: 90px;
+    margin-top: -35px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  .us {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .london {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  .phone {
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .ikonka {
+    text-align: center;
+    background-color: #bb2339;
+    margin-top: 320px;
+  }
+  .online {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .align {
+    text-align: center;
+  }
+  .newsletter {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    top: 50px;
+  }
+  .subscribe {
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #fff;
+    position: relative;
+    top: 50px;
+  }
+  .neser {
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+    top: 50px;
+  }
+  .colspan-one {
+    background-color: #bb2339;
+    width: 1200px;
+    height: 380px;
+    margin-left: 150px;
+    border-radius: 20px;
+    border: 1px  solid gray;
+    position: relative;
+    bottom: 850px;
+  }
+  .email {
+    border-radius: 100px;
+    border: 1px solid #333333;
+    width: 580px;
+    margin-left: 150px;
+    padding: 10px 10px;
+  }
+  .control {
+    margin-right: 445px;
+    color: #333333;
+    opacity: 0.5;
+  }
+  .never {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 90px;
+  }
+  
+  .senustes {
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    color: white;
+  }
+  .senustes:active{
+    background-color: green;
+  }
+  .senustes:hover{
+    background-color: yellow;
+    color: cadetblue;
+  }
+  .twitter:hover{
+    background-color: blue;
+  }
+  .instagram:hover{
+    background-color: red;
+  }
+  .facebook:hover {
+    background-color: blue;
+  }
